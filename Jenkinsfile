@@ -71,50 +71,6 @@ pipeline {
                 archiveArtifacts artifacts: 'dist/', fingerprint: true, followSymlinks: false
             }
         }
-
-
-        // Etapa : 
-        stage('') {
-            steps {
-                sh ''
-            }
-        }
-
-        // Etapa : 
-        stage('') {
-            steps {
-                sh ''
-            }
-        }
-
-        // Etapa : 
-        stage('') {
-            steps {
-                sh ''
-            }
-        }
-
-        // Etapa : 
-        stage('') {
-            steps {
-                sh ''
-            }
-        }
-
-        // Etapa : 
-        stage('') {
-            steps {
-                sh ''
-            }
-        }
-
-        // Etapa : 
-        stage('') {
-            steps {
-                sh ''
-            }
-        }
-
     }
     // Etapas finales.
     post {
