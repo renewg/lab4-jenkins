@@ -1,9 +1,9 @@
-pipeline (
+pipeline {
     agent any
 
     options {
         disableConcurrentBuilds() // Deshabilitamos build concurrentes
-        timestamps                  // Añadimos marcas te tiempo
+        timestamps()                  // Añadimos marcas te tiempo
         timeout(5)                  // Establecemos un timeout de 5 min.
     }
 
@@ -130,4 +130,4 @@ pipeline (
         }
     }
 
-)
+}
